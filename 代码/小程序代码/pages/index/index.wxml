@@ -1,0 +1,23 @@
+<!--index.wxml-->
+
+<view class="container" style='width:100%; min-height:100%;'>
+ <view class='title'>
+  <text>人脸识别智能小程序</text>
+ </view>
+
+<view class="content">
+
+</view>
+<view class="btn_start">
+ <button bindtap='go_main' class='btn1'>
+    <view>开启识别</view>
+ </button>
+
+</view>
+
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text><br/>
+    <text class="user-motto">{{motto1}}</text>
+  </view>  
+</view>
+ 

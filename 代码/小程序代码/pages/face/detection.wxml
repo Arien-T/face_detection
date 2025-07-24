@@ -1,0 +1,23 @@
+<view class="view">
+  <view class="window">
+    <canvas  id="myCanvas" type="2d" style="border: 1px solid;"/>
+    <camera class="camera" device-position="front" wx:if="{{camera}}" flash="off"> </camera>
+  </view>
+  <view class="btn_all">
+      <view class='btn_open'>
+        <button bindtap="open" type="primary" data-type="takePhoto">检测人脸</button>
+      </view>
+      <view class='btn_close'>
+        <button bindtap="close" type="primary" data-type="endPhoto">停止</button>
+      </view>    
+  </view>
+
+
+
+</view>
+
+
+ 
+ 
+ 
+ 
